@@ -13,8 +13,6 @@
     background-image:linear-gradient(to right, rgb(93, 217, 254), rgb(107, 0, 195));
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 1000px;
     font-size: 18px;
   }
   
@@ -24,10 +22,12 @@
     padding-left: 10px;
     border: rgba(15, 15, 15, 0.3) solid 2px;
     font-size: 18px;
+    text-shadow: 0px 2px 2px rgb(138 48 249 / 69%);
   }
   
   .search-container {
     background-color: rgba(195, 154, 245, 0.1);
+    margin-top: 25%;
   }
   .search-container input,
   .search-container .suggestions {
@@ -53,6 +53,7 @@
   ul li:hover {
     background-color: rgba(138, 48, 249, 0.4);
     transition-duration: 600ms;
+    text-shadow: 1px 0px 2px rgb(93 217 254);
   }
   
   li {
@@ -60,5 +61,6 @@
     padding:4%;
     margin-left: -40px;
     cursor: pointer;
+    text-shadow: 1px 0px 2px rgb(138 48 249 / 69%);
   }
   
